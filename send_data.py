@@ -4,7 +4,7 @@ import json
 import subprocess
 import time
 
-endpoint = 'http://4119-112-134-225-11.ngrok.io/predict'
+endpoint = 'http://33e2-112-134-227-222.ngrok.io/predict'
 filename = 'sample4.wav'
 device_id = 'homenet_iot_9'
 count = 1
