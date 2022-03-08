@@ -1,5 +1,4 @@
-![Uploading logo1.png…]()
-
+![logo1](https://user-images.githubusercontent.com/52739523/157240707-9f345574-b7b8-4565-a821-cf5b4dd3c1fc.png)
 
 # Research
 
