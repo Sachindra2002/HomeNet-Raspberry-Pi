@@ -1,3 +1,6 @@
+![Uploading logo1.png…]()
+
+
 # Research
 
 This research mainly focuses on how natural sound-based context recognition can be applied on mainstream home security systems and the author thought about the possibilities of using sound to infer context and after some research the author found that the power of sound is often overlooked. Research also shows that enormous amount of context information can be deduced from sound. For example, the sound of fireworks may indicate that an event or a festival is going on, the sound of honking may indicate a traffic congestion nearby, a baby crying may indicate the baby is hungry, etc. the “noise” surrounding us is a very good indicator of context.
@@ -15,7 +18,7 @@ As images and video data is the most promising and widely available data types t
 
 # Solution
 
-a sound recognition API will be developed where it will have all the capabilities in identifying sound and more functions to cater the user experience. 
+A sound recognition API will be developed where it will have all the capabilities in identifying sound and more functions to cater the user experience. 
 To better demonstrate how this product can be applied to smart homes and its use cases, a Raspberry Pi will be used as an IOT device, and an Android mobile app will be developed around the implemented API. The IOT device will act as an input channel for recording natural sound, while the application will be used to connect the IOT device and get the alerts based on the sound detected.
 
 The IOT device could be placed on certain areas of a house and once its installed and connected the IOT device will continuously send audio data to the REST API, When the audio data arrives at the server, the audio data will be sent to the imported Machine Learning model, where the sound will be recognized. After the sound is recognized, based on the sound an alert will be sent to the users’ mobile using Firebase Cloud Messaging Services. Mongo DB will be used as the primary database to this system where it will store all user data and information of the IOT devices and will be used to determine which IOT device is associated with the user.
