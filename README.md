@@ -26,6 +26,34 @@ The IOT device could be placed on certain areas of a house and once its installe
 
 Currently, this system can only recognize four types of sound, which are the sound of dogs barking which might indicate a person is trespassing, sound of glass breaking which might indicate an intruder, sound of door knocking which might indicate that someone has arrived and sound of a baby crying to wake up sleeping parents. Some of the above sounds may not indicate a threat to a house even though this project is about home security, but the beauty of the smart home is that it could be used much more than a security system and recognize sounds which are not direct threats but could be useful to the users.
 
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/52739523/154854366-ba953185-7526-40b7-985d-d1866b79359c.png">
-</p>
+
+![image](https://user-images.githubusercontent.com/52739523/154854366-ba953185-7526-40b7-985d-d1866b79359c.png)
+
+# Related Repositories
+
+- RESTful API Repository - [https://github.com/Sachindra2002/HomeNet-API](https://github.com/Sachindra2002/HomeNet-API)
+- Raspberry Pi Code - [https://github.com/Sachindra2002/HomeNet-Raspberry-Pi](https://github.com/Sachindra2002/HomeNet-Raspberry-Pi)
+- Jupyter Notebooks - `Not publicly available`
+
+# Neural Netowrks
+
+Two Neural Netowrks were trained as follows
+
+- 11 layer CNN model built from scratch to perform classification for four types of sounds
+- Sequential model built using transfer learning from the YAMNet pre-trained model and build a new sequential model to fit the new dataset
+
+# Technologies Used
+
+![ alt text ](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+![ alt text ](https://img.shields.io/badge/firebase-ffca28?style=for-the-badge&logo=firebase&logoColor=black)
+![ alt text ](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![ alt text ](https://camo.githubusercontent.com/2667ec9ca32204207bf4b7e999a3d26874759a9b5aeec22ebb4682ce936d2955/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666f722d7468652d6261646765266d6573736167653d4b6572617326636f6c6f723d443030303030266c6f676f3d4b65726173266c6f676f436f6c6f723d464646464646266c6162656c3d)
+![ alt text ](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+![ alt text ](https://camo.githubusercontent.com/028e2fa50d07bd7e228b89255fa1bd5ad310d1b3d7c327f67e9510398a045272/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666f722d7468652d6261646765266d6573736167653d416e64726f696426636f6c6f723d323232323232266c6f676f3d416e64726f6964266c6f676f436f6c6f723d334444433834266c6162656c3d)
+
+
+# Future Enhancements
+
+- Train a model to identify a huge vareity of sounds
+- Integrate home automation (Trigger actions when a certain sound is detected)
+- Only start recording when a sound is detected
